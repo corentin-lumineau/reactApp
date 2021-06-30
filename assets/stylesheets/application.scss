@@ -8,3 +8,26 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.right-scene {
+  width: 40%;
+  height: 100vh;
+  background: red;
+}
+
+.left-scene {
+  width: 60%;
+  height: 100vh;
+
+  img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
