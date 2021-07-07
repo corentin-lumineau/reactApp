@@ -35,6 +35,7 @@ selectGif(id) {
   this.setState({
     selectedGifId: id
   });
+  console.log(this.state);
 }
 
 
